@@ -46,4 +46,4 @@
 4. Inicie o servidor:
     ```bash
     npm start
-    ``à
+    ```
