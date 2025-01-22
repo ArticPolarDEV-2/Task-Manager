@@ -79,12 +79,7 @@ Se tiver dúvidas, sugestões ou problemas, entre em contato:
 
 Agradeço a todos que ajudaram direta ou indiretamente no desenvolvimento deste projeto! ❤️
 
-
-```
-
 ### **MIT License**
-Adicione também um arquivo `LICENSE` com o conteúdo da licença MIT:
-
 ```plaintext
 MIT License
 
