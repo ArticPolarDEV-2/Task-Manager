@@ -1,7 +1,6 @@
 # Task Manager
 
-**Task Manager** é uma aplicação simples e eficiente projetada para ajudar no gerenciamento de tarefas pessoais ou profissionais. Ele permite organizar, acompanhar e concluir tarefas de maneira produtiva.
-
+**Task Manager** é uma aplicação de gerenciamento de tarefas construída com **NodeGUI** e **Svelte**, oferecendo uma interface desktop nativa, responsiva e eficiente. Ideal para organizar e acompanhar tarefas pessoais ou profissionais.
 
 ## 🚀 Funcionalidades
 
@@ -11,21 +10,22 @@
 - **Exclusão de Tarefas**: Remova tarefas que não são mais necessárias.
 - **Filtragem e Ordenação**: Organize tarefas por status ou ordem de criação.
 
-
 ## 🛠️ Tecnologias Utilizadas
 
-- **Frontend**: [Especifique aqui, como HTML/CSS, React, etc.]
-- **Backend**: [Especifique aqui, como Node.js, Java, etc.]
-- **Banco de Dados**: [Especifique aqui, como MongoDB, MySQL, etc.]
+- **Interface de Usuário**: [NodeGUI](https://nodegui.org) com [Svelte](https://svelte.dev)
+- **Backend**: Node.js
+- **Banco de Dados**: SQLite3
+- **Gerenciador de Dependências**: npm
 
 ## 📦 Como Usar
 
 ### Pré-requisitos
-- [Node.js](https://nodejs.org) instalado
-- [Git](https://git-scm.com) instalado
-- [Dependências do projeto](#instalação) instaladas
+
+- [Node.js](https://nodejs.org) (versão LTS recomendada)
+- [Git](https://git-scm.com)
 
 ### Instalação
+
 1. Clone o repositório:
    ```bash
    git clone https://github.com/ArticPolarDEV-2/Task-Manager.git
@@ -38,48 +38,52 @@
    ```bash
    npm install
    ```
-4. Inicie o servidor:
+4. Inicie o ambiente de desenvolvimento:
    ```bash
-   npm start
+   npm run dev
+   ```
+5. Para criar um binário do aplicativo, execute:
+   ```bash
+   npm run build
    ```
 
 ## 🤝 Contribuições
 
-Contribuições são sempre bem-vindas! Siga os passos abaixo para colaborar:  
-1. Faça um fork do projeto.  
-2. Crie uma nova branch para sua feature ou correção:  
+Contribuições são sempre bem-vindas! Para colaborar:
+
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature ou correção:
    ```bash
    git checkout -b minha-feature
    ```
-3. Commit suas mudanças:  
+3. Commit suas mudanças:
    ```bash
    git commit -m "Adiciona minha feature"
    ```
-4. Faça o push da sua branch:  
+4. Faça o push da sua branch:
    ```bash
    git push origin minha-feature
    ```
 5. Abra um Pull Request no repositório principal.
 
-
 ## 📜 Licença
 
 Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-
 ## 📞 Contato
 
-Se tiver dúvidas, sugestões ou problemas, entre em contato:  
 - **Autor**: Lucas Zion  
 - **GitHub**: [ArticPolarDEV-2](https://github.com/ArticPolarDEV-2)  
-- **E-mail**: [seu-email@example.com](mailto:seu-email@example.com)
-
+- **E-mail**: [articpolardev@gmail.com](mailto:articpolardev@gmail.com)
 
 ## 🌟 Agradecimentos
 
 Agradeço a todos que ajudaram direta ou indiretamente no desenvolvimento deste projeto! ❤️
 
+---
+
 ## **MIT License**
+
 ```plaintext
 MIT License
 
